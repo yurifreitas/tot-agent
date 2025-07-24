@@ -7,10 +7,8 @@ from langchain_core.runnables import RunnableLambda
 from langchain_openai import AzureChatOpenAI
 from smolagents import ToolCallingAgent, ToolCollection, LiteLLMModel
 from mcp import StdioServerParameters
-from acp_sdk.server import create_app
 from acp_sdk.server.agent import agent
 from acp_sdk.models import Message, MessagePart
-from fastapi.middleware.cors import CORSMiddleware
 from collections.abc import AsyncGenerator
 from typing import TypedDict
 

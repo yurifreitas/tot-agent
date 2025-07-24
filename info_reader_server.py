@@ -19,7 +19,7 @@ client = AzureOpenAI(
 mcp = FastMCP("info_reader_server")
 
 @mcp.tool(name="extract_info_from_image", description="Extrai info a partir de uma imagem via Azure OpenAI")
-def extract_barcode_from_image(image_url: str) -> str:
+def extract_info_from_image(image_url: str) -> str:
     """Extrai informaçoes de uma imagem.
         Args:
             image_url: url de imagem
