@@ -1,0 +1,28 @@
+# LangChain + LangGraph
+langchain>=0.1.20
+langgraph>=0.0.45
+
+# SmolAgents (para ToolCallingAgent)
+
+smolagents>=1.20.0
+# ACP SDK (Agent Communication Protocol)
+acp-sdk>=0.2.2
+
+# Cliente OpenAI para Azure
+openai>=1.24.1
+
+# LLM Wrapper alternativo para modelos locais ou Ollama
+litellm>=1.36.14
+
+# FastAPI + Uvicorn
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Suporte a CORS
+python-dotenv>=1.0.1
+aiohttp>=3.9.5
+
+
+acp-sdk==1.0.0
+mcp==1.10.1
+mcpadapt==0.1.10
